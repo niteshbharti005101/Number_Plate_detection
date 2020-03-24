@@ -3,7 +3,7 @@ import base64
 import json
 
 def number_plate(image_path):
-    secret_key = 'sk_49a53da40c924e10d4e086b0'
+    secret_key = 'Your Secret Key'
     with open(image_path, 'rb') as image_file:
             img_base64 = base64.b64encode(image_file.read())
 
